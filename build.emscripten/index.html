@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+    <h1>Calculation result: <span id="calcResult"></span></h1>
+    <script>
+    var Module = {
+        onRuntimeInitialized: function() {
+        let result = Module.cppFunction(5, 10, 2)
+        document.getElementById('calcResult').innerHTML = result;
+        console.log('Output: ' + result);
+        }
+    };
+    </script>
+    <script src="client.js"></script>
+</html>
