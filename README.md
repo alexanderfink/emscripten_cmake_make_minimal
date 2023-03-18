@@ -13,7 +13,7 @@ This is a minimal working example for compiling a emscripten project with cmake 
 
 
 ### Compile and use archives (.a) 
-> **Attention:** If you try to use an archive or object file that was not compiled for wasm will result in the following error: wasm-ld-13: error: unknown file type: calculator.o
+> **Attention:** If you try to use an archive or object file that was not compiled for wasm will result in the following error: wasm-ld-13: error: unknown file type: calculator.o. See https://github.com/emscripten-core/emscripten/issues/7972 for further information.
 
 Create an object file with emscripten clang wrapper emcc: `emcc -c -o libsource.o libsource.cpp` 
 
