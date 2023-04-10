@@ -1,5 +1,5 @@
 # Emscripten minimum working example using CMake and Make and linking libraries (archives) on unix
-This is a minimal working example for compiling a emscripten project with cmake and make on unix. The code is a simpliefied version of https://github.com/adevaykin/minimal-cmake-emscripten-project
+This is a minimal working example for compiling an emscripten project with cmake and make on unix. The code is a simpliefied version of https://github.com/adevaykin/minimal-cmake-emscripten-project
 
 ## Compile project
 1. Set emscripten path in CMakeLists.txt:10
